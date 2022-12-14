@@ -13,7 +13,7 @@ namespace multifunctioncalculator
             while (true)
             {
                 Console.Write("Enter an operation: ");
-                op = Console.ReadLine();
+                op = Console.ReadLine()?.ToLower();
                 switch (op)
                 {
                     case var s when s == "add" || s == "+":
@@ -22,7 +22,7 @@ namespace multifunctioncalculator
                     case var s when s == "subtract" || s == "-":
                         total_num -= return_num();
                         break;
-                    case var s when s == "multiply" || s == "*" || s.ToLower() == "x":
+                    case var s when s == "multiply" || s == "*" || s == "x":
                         total_num *= return_num();
                         break;
                     case var s when s == "divide" || s == "/":
