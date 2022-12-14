@@ -9,7 +9,7 @@ namespace multifunctioncalculator
             double memory = 0,total_num = 0;
             string op;
             Console.WriteLine("Here are the set of available actions: ");
-            Console.WriteLine("[ + | add ],  [ - | subtract ], [ * | x | multiply ], [ / | divide ], \n[ c | clear ], [ cv | current_val ],  [ m | write_to_memory ], [ e | end ]\n");
+            Console.WriteLine("[ + | add ],  [ - | subtract ], [ * | x | multiply ], [ / | divide ], [ % | modulo ], [ ^ | square_root ] \n[ c | clear ], [ cv | current_val ],  [ m | write_to_memory ], [ e | end ]\n");
             while (true)
             {
                 Console.Write("Enter an operation: ");
@@ -27,6 +27,12 @@ namespace multifunctioncalculator
                         break;
                     case var s when s == "divide" || s == "/":
                         total_num /= return_num();
+                        break;
+                    case var s when s == "modulo" || s == "%":
+                        total_num %= return_num();
+                        break;
+                    case var s when s == "square_root" || s == "^":
+                        total_num = Math.Sqrt(total_num);
                         break;
                     case var s when s == "clear" || s == "c":
                         total_num = 0;
