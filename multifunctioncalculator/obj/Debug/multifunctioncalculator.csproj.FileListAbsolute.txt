@@ -1,0 +1,7 @@
+C:\Users\jonah\RiderProjects\cscourse\multifunctioncalculator\bin\Debug\multifunctioncalculator.exe
+C:\Users\jonah\RiderProjects\cscourse\multifunctioncalculator\bin\Debug\multifunctioncalculator.pdb
+C:\Users\jonah\RiderProjects\cscourse\multifunctioncalculator\obj\Debug\multifunctioncalculator.csproj.AssemblyReference.cache
+C:\Users\jonah\RiderProjects\cscourse\multifunctioncalculator\obj\Debug\multifunctioncalculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\jonah\RiderProjects\cscourse\multifunctioncalculator\obj\Debug\multifunctioncalculator.csproj.CoreCompileInputs.cache
+C:\Users\jonah\RiderProjects\cscourse\multifunctioncalculator\obj\Debug\multifunctioncalculator.exe
+C:\Users\jonah\RiderProjects\cscourse\multifunctioncalculator\obj\Debug\multifunctioncalculator.pdb
